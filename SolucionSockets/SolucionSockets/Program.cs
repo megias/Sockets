@@ -60,7 +60,9 @@ namespace SolucionSockets
                 Thread.Sleep(500);
                 do
                 {
-                    Console.WriteLine("(1)Piedra   (2)Papel   (3)Tijeras");
+                    Console.WriteLine("1.Piedra");
+                    Console.WriteLine("2.Papel");
+                    Console.WriteLine("3.Tijeras");
                     jugada = ConvertirFormato(Console.ReadLine());
                     while (jugada < 1 || jugada > 3)
                     {
